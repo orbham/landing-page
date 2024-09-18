@@ -90,4 +90,50 @@ h2 {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    margin-bottom: 50px;
+}
+
+.card-panel {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 125px;
+}
+
+.card img {
+        height: 200px;
+        width: 200px;
+        border-radius: 10px;
+}
+
+.card {
+    text-align: center;
+    flex-basis: 200px;
+}
+
+.qcontainer {
+    background-color: #E5E7EB;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.author {
+    color: #1F2937;
+    text-align: right;
+    font-weight: 800;
+    font-size: 18px;
+    margin: 0;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+    margin: 0;
 }
