@@ -143,39 +143,49 @@ h2 {
     margin: 0;
 }
 
-.panel-three {
-    margin: 60px;
-    padding: 32px 0px;
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 50px;
+}
+
+.call {
+    display: flex;
     background-color: #3882F6;
-    border-radius: 10px;
-    display: flex;
-    padding-left: 50px;
+    justify-content: space-around;
+    padding: 50px 120px;
+    border-radius: 15px;
+    gap: 50px;
 }
 
-.sign-up-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-left: 60px;
-}
-
-.button-container {
-    font-weight: 800;
-    display: flex;
+.call div {
     align-self: center;
-    padding-left: 60px;
-    padding-right: 60px;
-    border: 4px solid #E5E7EB;
-    border-radius: 12px;
 }
 
-.sign-up-button {
-    border: 4px solid #E5E7EB;
-    border-radius: 12px;
-    width: 90px;
-    height:50px;
-    display: flex;
-    
+.call h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.call p {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.call button {
+    align-self: center;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
+    padding: 5px 40px;
+    font-weight: bold;
 }
 
 footer {
